@@ -7,6 +7,5 @@ public class AnimeTest01 {
         Anime anime = new Anime();
         anime.init("Sakura Card Captor","TV",70,"Romance");
         anime.print();
-
     }
 }

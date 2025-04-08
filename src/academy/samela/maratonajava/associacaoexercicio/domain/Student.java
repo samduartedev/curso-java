@@ -3,35 +3,34 @@ package academy.samela.maratonajava.associacaoexercicio.domain;
 public class Student {
     private String name;
     private int age;
-    private Seminar seminar;
+    Seminary seminary;
 
     public Student(String name, int age) {
         this.name = name;
         this.age = age;
     }
 
-    public Student(String name, int age, Seminar seminar){
-        this.name = name;
-        this.age = age;
-        this.seminar = seminar;
-    }
-
-    public String getName(){
+    public String getName() {
         return name;
     }
-    public void setName(String name){
+
+    public void setName(String name) {
         this.name = name;
     }
-    public int getAge(){
+
+    public int getAge() {
         return age;
     }
-    public void setAge(int age){
+
+    public void setAge(int age) {
         this.age = age;
     }
-    public Seminar getSeminar() {
-        return seminar;
+
+    public Seminary getSeminary() {
+        return seminary;
     }
-    public void setSeminar(Seminar seminar) {
-        this.seminar = seminar;
+
+    public void setSeminary(Seminary seminary) {
+        this.seminary = seminary;
     }
 }

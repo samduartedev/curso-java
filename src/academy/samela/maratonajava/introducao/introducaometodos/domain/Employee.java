@@ -55,8 +55,5 @@ public class Employee {
         return salaries;
     }
 
-    public double getMedia() {
-        return media;
-    }
 }
 
