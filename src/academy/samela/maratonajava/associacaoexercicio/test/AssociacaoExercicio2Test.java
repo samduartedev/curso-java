@@ -14,7 +14,6 @@ public class AssociacaoExercicio2Test {
 
         Teacher teacher = new Teacher("Bárbara","Ciências");
 
-
         Location location = new Location("Escola Adventista, Rua baruá, 138, Aleixo");
 
         Seminary seminary = new Seminary("Bing Bang",location);
